@@ -1,0 +1,52 @@
+.sidebar {
+    width: 300px; /* Fixed width for the sidebar */
+    padding: 20px;
+    background-color: #2E2E2E; /* Dark Gray background for the sidebar */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+.sidebar-card {
+    background-color: transparent; /* Transparent card background */
+    box-shadow: none; /* Remove default shadow */
+    border: 2px solid #FFD700; /* Add border color here as well */
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align content */
+    padding: 20px;
+}
+
+.avatar {
+    width: 80px; /* Avatar size */
+    height: 80px;
+    margin-bottom: 16px; /* Space below the avatar */
+}
+
+.username {
+    color: #FFD700; /* Gold color for the username */
+    font-family: 'Montserrat', sans-serif; /* Bold sans-serif font for headings */
+    font-weight: bold;
+}
+
+.user-details,
+.user-follow-stats {
+    color: #D0D0D0; /* Light gray for text */
+    margin-bottom: 8px; /* Space between text elements */
+}
+
+.view-profile-button,
+.upload-post-button {
+    background-color: #FFD700; /* Gold for primary buttons */
+    color: #1E1E1E; /* Very dark gray text for contrast */
+    width: 100%; /* Full width buttons */
+    margin-top: 12px; /* Space above buttons */
+}
+
+.view-profile-button:hover,
+.upload-post-button:hover {
+    background-color: #FFC107; /* Slightly darker gold on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+}

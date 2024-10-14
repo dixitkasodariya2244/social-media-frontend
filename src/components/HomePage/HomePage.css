@@ -1,0 +1,106 @@
+/* HomePage.css */
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.sidebar, .right-sidebar {
+    width: 20%;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-right: 1px solid #ddd; /* Adds a border to separate from content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+.main-content {
+    width: 60%;
+    padding: 20px;
+}
+
+.profile-card {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.status-updates {
+    margin-top: 20px;
+}
+
+.status {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.top-profiles, .top-jobs, .most-viewed {
+    margin-top: 20px;
+}
+
+.top-profiles ul, .top-jobs ul, .most-viewed ul {
+    list-style: none;
+    padding: 0;
+}
+
+.top-profiles ul li, .top-jobs ul li, .most-viewed ul li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    padding: 16px;
+}
+
+/* Sidebar specific styles */
+
+.sidebar-card {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border: 3px solid #3f51b5; /* Primary color border */
+    margin: 0 auto;
+}
+
+.file-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center all content horizontally */
+    text-align: center; /* Center text within the container */
+}
+
+
+.file-input {
+    display: none;
+}
+
+.view-profile-button {
+    margin-top: 16px;
+    align-self: center; /* Centers the button */
+}

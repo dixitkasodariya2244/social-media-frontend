@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif; /* Clean sans-serif font for body text */
+    background-color: #1E1E1E; /* Very Dark Gray for the overall background */
+    color: #E0E0E0; /* Light Gray text for better readability */
+}
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1E1E1E; /* Consistent dark background */
+}
+
+.auth-box {
+    background-color: #2E2E2E; /* Dark Gray for content areas or cards */
+    padding: 40px 60px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Strong shadow for depth */
+    width: 400px;
+    text-align: center;
+}
+
+.auth-box h2 {
+    margin-bottom: 30px;
+    color: #FFD700; /* Gold for headings to add a touch of elegance */
+    font-family: 'Montserrat', sans-serif; /* Bold sans-serif font for headings */
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.auth-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-box label {
+    margin-bottom: 8px;
+    color: #D0D0D0; /* Lighter Gray for labels */
+    text-align: left;
+    font-size: 14px;
+}
+
+.auth-box input,
+.auth-box select {
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #666666; /* Lighter border color for visibility */
+    background-color: #3A3A3A; /* Slightly lighter dark background for inputs */
+    color: #E0E0E0; /* Light Gray text in inputs for better visibility */
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+.auth-box input:focus,
+.auth-box select:focus {
+    outline: none;
+    border-color: #FFD700; /* Gold for focus to highlight the input field */
+}
+
+.auth-box button {
+    background-color: #FFD700; /* Gold for primary button */
+    color: #1E1E1E; /* Very Dark Gray text for contrast */
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.auth-box button:hover {
+    background-color: #FFC107; /* Slightly darker gold on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+}
+
+.auth-box p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #D0D0D0; /* Light Gray for text */
+}
+
+.auth-box a {
+    color: #FFD700; /* Gold for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.auth-box a:hover {
+    color: #FFC107; /* Slightly darker gold on hover */
+    text-decoration: underline;
+}

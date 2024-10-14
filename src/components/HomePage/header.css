@@ -1,0 +1,194 @@
+/* Header Style */
+.appBar {
+    background-color: #1a1a1a; /* Dark modern background */
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.typography {
+    font-family: 'Roboto', sans-serif; /* Modern, clean font */
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.searchBox {
+    position: relative;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    margin-right: 1rem;
+    transition: box-shadow 0.3s ease;
+}
+
+.searchBox input {
+    padding: 0.5rem 1rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.searchBox input::placeholder {
+    color: #999999;
+}
+
+.searchBox:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.searchResults {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    z-index: 1000;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow for dropdown */
+    overflow: hidden;
+}
+
+.searchResults .menuItem {
+    padding: 0.75rem;
+    font-size: 1rem;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.searchResults .menuItem:hover {
+    background-color: #f0f0f0;
+}
+
+.iconButton {
+    color: #ffffff;
+    transition: transform 0.3s ease;
+}
+
+.iconButton:hover {
+    transform: scale(1.1);
+}
+
+.notificationBadge {
+    background-color: #ff6b6b; /* Vibrant red for notifications */
+}
+
+.notificationMenu {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.notificationTitle {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 0;
+    color: #333;
+}
+
+.notificationItem {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.notificationItem:hover {
+    background-color: #f0f0f0;
+}
+
+.notificationAvatar {
+    margin-right: 1rem;
+}
+
+.notificationText {
+    flex-grow: 1;
+    font-size: 1rem;
+}
+
+.notificationButtons {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.buttonSuccess {
+    color: #4caf50;
+    transition: transform 0.3s ease;
+}
+
+.buttonSuccess:hover {
+    transform: scale(1.1);
+}
+
+.buttonReject {
+    color: #f44336;
+    transition: transform 0.3s ease;
+}
+
+.buttonReject:hover {
+    transform: scale(1.1);
+}
+
+.menuPaper {
+    padding: 0.5rem;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+.menuItem {
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.menuItem:hover {
+    background-color: #333333;
+}
+
+.logoutButton {
+    background-color: #ff6b6b;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.logoutButton:hover {
+    background-color: #ff5252;
+}
+
+.friendsList {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+.friendsItem {
+    padding: 0.75rem 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.friendsAvatar {
+    background-color: #3f51b5;
+}
+
+.friendsText {
+    color: #333;
+    font-size: 1rem;
+    font-weight: bold;
+}

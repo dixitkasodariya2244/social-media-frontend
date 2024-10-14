@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif; /* Clean sans-serif font for body text */
+    background-color: #1E1E1E; /* Very Dark Gray for the overall background */
+    color: #E0E0E0; /* Light Gray text for better readability */
+}
+
+.profile-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #1E1E1E; /* Consistent dark background */
+}
+
+.profile-page .MuiCard-root {
+    background-color: #2E2E2E; /* Dark Gray for content areas or cards */
+    border-radius: 12px; /* Rounded corners for the card */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Strong shadow for depth */
+}
+
+.profile-page .MuiButton-root {
+    background-color: #FFD700; /* Gold for buttons */
+    color: #ffffff; /* Very Dark Gray text for contrast */
+    text-transform: uppercase;
+}
+
+.profile-page .MuiButton-root:hover {
+    background-color: #FFC107; /* Slightly darker gold on hover */
+}
